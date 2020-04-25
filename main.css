@@ -24,10 +24,17 @@ main {
 }
 
 #form {
-  margin-top: 200px;
+  margin-top: 150px;
   margin-left: 400px;
 }
 
+h1{
+  text-align: center;
+  color: #9a653e;
+  margin-bottom: 50px;
+  font-size: 36px;
+  text-shadow: black 1px 1px 1px;
+}
 label {
   display: block;
   font-size: 20px;
@@ -36,6 +43,7 @@ label {
 input {
   margin: 10px 0;
   padding-left: 10px;
+  padding-right: 10px;
   font-size: 18px;
   border: none;
   box-shadow: #333333 1px 1px 10px;
