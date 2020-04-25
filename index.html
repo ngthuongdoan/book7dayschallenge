@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="main.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="overlay.css">
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <title>Book Challenge</title>
+</head>
+
+<body>
+    <div id="overlay" onclick="overlayOff()">
+        <div id="wrapper">
+            <ul id="days">
+                <li class="card" id="monday">
+                    <h3>Monday</h3>
+                    <p class="result"></p>
+                </li>
+                <li class="card" id="tuesday">
+                    <h3>Tuesday</h3>
+                    <p class="result"></p>
+                </li>
+                <li class="card" id="wednesday">
+                    <h3>Wednesday</h3>
+                    <p class="result"></p>
+                </li>
+                <li class="card" id="thursday">
+                    <h3>Thursday</h3>
+                    <p class="result"></p>
+                </li>
+                <li class="card" id="friday">
+                    <h3>Friday</h3>
+                    <p class="result"></p>
+                </li>
+                <li class="card" id="sartuday">
+                    <h3>Sartuday</h3>
+                    <p class="result"></p>
+                </li>
+                <li class="card" id="sunday">
+                    <h3>Sunday</h3>
+                    <p class="result"></p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <main>
+        <div id="form">
+            <label for="">Chapters</label>
+            <input type="text" name="" id="chapters" required>
+            <label for="">End Page Of Last Chapter</label>
+            <input type="number" name="" id="endPageOfLastChapter" required>
+            <button id="btn" onclick="divide()">DIVIDE</button>
+        </div>
+
+    </main>
+</body>
+
+</html>
